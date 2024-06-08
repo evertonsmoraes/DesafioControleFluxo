@@ -1,0 +1,1 @@
+tagSearchIndex = [{"l":"Contator","h":"class Contador","d":"Section","u":"Contador.html#contator-heading"},{"l":"Serialized Form","h":"","u":"serialized-form.html"}];updateSearchResults();
