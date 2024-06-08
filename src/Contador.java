@@ -9,6 +9,11 @@ import java.util.Scanner;
 	* @since   08/06/2024
 	*/
 public class Contador {
+     /**
+	* Este método recebe dois parâmetros através do terminal para iniciara contagem
+	* @param parametroUm este é o primeiro parâmetro do método, número inicial da contagem
+	* @param parametroDois este é o segundo parâmetro do método,número final da contagem
+	*/
 	public static void main(String[] args) {
 
 		Scanner terminal = new Scanner(System.in);
@@ -35,10 +40,10 @@ public class Contador {
 		
 	}
     /**
-	   * Este método é utilizado realizar  diferença entre 2 números inteiros, imprimirdo a contagem
-	   * @param parametroUm este é o primeiro parâmetro do método, número inicial da contagem
-	   * @param parametroDois este é o segundo parâmetro do método,número final da contagem
-	   */
+	* Este método é utilizado realizar  diferença entre 2 números inteiros, imprimirdo a contagem
+	* @param parametroUm este é o primeiro parâmetro do método, número inicial da contagem
+	* @param parametroDois este é o segundo parâmetro do método,número final da contagem
+	*/
 	static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
 
         //validar se parametroUm é MAIOR que parametroDois e lançar a exceção
